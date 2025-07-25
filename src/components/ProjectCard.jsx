@@ -1,6 +1,6 @@
 const ProjectCard = ({ title, main, image, demo, sourceCode }) => {
   return (
-    <div className='p-3 md:p-6 flex flex-col w-full md:w-80 bg-[rgb(12,14,25)] shadow-xl shadow-slate-900 rounded-2xl'>
+    <div className='py-3 md:p-6 flex flex-col w-full md:w-80 bg-[rgb(12,14,25)] shadow-xl shadow-slate-900 rounded-2xl'>
       <img
         src={image}
         alt="project-image"

@@ -25,7 +25,7 @@ const About = () => {
         
         <div className="w-full md:w-2/3 space-y-6">
           <p className="text-gray-300 text-base md:text-lg leading-relaxed">
-            I'm a <span className="font-semibold text-white">Full Stack Web Developer</span> with a passion for building scalable, efficient, and user-friendly applications. With experience in both frontend and backend development, I focus on writing clean code and deploying robust, production-ready software.
+            I'm a <span className="font-semibold text-white">Full Stack Web Developer</span> with a passion for building scalable, efficient, and user-friendly applications. With experience in both frontend and backend development, I focus on writing clean code and deploying production-ready software.
           </p>
 
           

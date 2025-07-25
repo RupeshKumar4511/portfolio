@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard"
-import image from '../assets/developer.png';
+import image from '../assets/thoughtcircle.jpg';
 import image2 from '../assets/countries.jpg';
 import image3 from '../assets/expense-tracker.jpg';
 import image4 from '../assets/techupdate.jpg';
@@ -8,12 +8,12 @@ import image5 from '../assets/todosapp.jpg';
 
 const Projects = () => {
   return (
-    <div id="projects" className='p-10 md:p-24 text-white'>
+    <div id="projects" className='p-6 md:py-24 md:px-4 lg:px-20 text-white'>
       <h1 className='text-2xl md:text-4xl text-white font-bold'>Projects</h1>
-      <div className='py-12 px-8 flex flex-wrap gap-5'>
-        <ProjectCard title={"socialSync"} main={"This is a social web application built using React, Tailwind, Express, MongoDB."} 
-        image = {image} demo={"https://socialSync-rupesh.netlify.app/"}
-        sourceCode={"https://github.com/RupeshKumar4511/socialSync"}/>
+      <div className='py-12 px-4 md:px-8 flex flex-wrap gap-5'>
+        <ProjectCard title={"ThoughtCircle"} main={"This is a social web application built using React, Tailwind, Express and MongoDB where users can post his ideas and thoughts and it also contains some other features."} 
+        image = {image} demo={"https://thoughtcircle-frontend.onrender.com"}
+        sourceCode={"https://github.com/RupeshKumar4511/ThoughtCircle"}/>
 
         <ProjectCard title={"REST Countries"} main={"A web app that integrates with the REST Countries API to fetch and display detailed information about countries, such as their name, capital, region, population, and flag."} 
         image = {image2} 
