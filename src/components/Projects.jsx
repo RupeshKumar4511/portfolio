@@ -13,7 +13,7 @@ const Projects = () => {
       <h1 className='text-2xl md:text-4xl text-white font-bold'>Projects</h1>
       <div className='py-12 px-4 md:px-8 flex flex-wrap gap-5'>
 
-        <ProjectCard title={"Projectly"} main={"This is a full stack web application built using React, Tailwind, Node, Express, Postgres and Redis that helps teams plan, organize, and track projects efficiently."} 
+        <ProjectCard title={"Projectly"} main={"This is a full stack web application built using React, Tailwind, Node, Express, PostgreSQL and Redis that helps teams plan, organize, and track projects efficiently."} 
         image = {image1} demo={"https://projectly.onrender.com"}
         sourceCode={"https://github.com/RupeshKumar4511/project-management-platform"}/>
 
