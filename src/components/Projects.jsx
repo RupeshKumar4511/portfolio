@@ -1,5 +1,6 @@
 import ProjectCard from "./ProjectCard"
 import image from '../assets/thoughtcircle.jpg';
+import image1 from '../assets/projectly.jpg';
 import image2 from '../assets/countries.jpg';
 import image3 from '../assets/expense-tracker.jpg';
 import image4 from '../assets/techupdate.jpg';
@@ -13,7 +14,7 @@ const Projects = () => {
       <div className='py-12 px-4 md:px-8 flex flex-wrap gap-5'>
 
         <ProjectCard title={"Projectly"} main={"This is a full stack web application built using React, Tailwind, Node, Express, Postgres and Redis that helps teams plan, organize, and track projects efficiently."} 
-        image = {image} demo={"https://projectly.onrender.com"}
+        image = {image1} demo={"https://projectly.onrender.com"}
         sourceCode={"https://github.com/RupeshKumar4511/project-management-platform"}/>
 
         <ProjectCard title={"ThoughtCircle"} main={"This is a social web application built using React, Tailwind, Express and MongoDB where users can post his ideas and thoughts and it also contains some other features."} 
