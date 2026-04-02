@@ -61,7 +61,7 @@ const About = () => {
               <IoArrowForward size={24} className="mt-1 text-yellow-400" />
               <div>
                 <h3 className="text-lg md:text-xl font-semibold">DevOps Tools & Cloud</h3>
-                <p className="text-gray-400">Git, GitHub, Docker, Jenkins, AWS(VPC,EC2,S3,IAM,AWS CI/CD, Lambda), Render</p>
+                <p className="text-gray-400">Git, GitHub, Docker, Jenkins, AWS(VPC,EC2,S3,IAM,AWS CI/CD,Lambda), Render</p>
               </div>
             </li>
           </ul>
