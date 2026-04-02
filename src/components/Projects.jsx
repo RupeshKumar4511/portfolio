@@ -11,6 +11,11 @@ const Projects = () => {
     <div id="projects" className='p-6 md:py-24 md:px-4 lg:px-20 text-white'>
       <h1 className='text-2xl md:text-4xl text-white font-bold'>Projects</h1>
       <div className='py-12 px-4 md:px-8 flex flex-wrap gap-5'>
+
+        <ProjectCard title={"Projectly"} main={"This is a full stack web application built using React, Tailwind, Node, Express, Postgres and Redis that helps teams plan, organize, and track projects efficiently."} 
+        image = {image} demo={"https://projectly.onrender.com"}
+        sourceCode={"https://github.com/RupeshKumar4511/project-management-platform"}/>
+
         <ProjectCard title={"ThoughtCircle"} main={"This is a social web application built using React, Tailwind, Express and MongoDB where users can post his ideas and thoughts and it also contains some other features."} 
         image = {image} demo={"https://thoughtcircle-frontend.onrender.com"}
         sourceCode={"https://github.com/RupeshKumar4511/ThoughtCircle"}/>
