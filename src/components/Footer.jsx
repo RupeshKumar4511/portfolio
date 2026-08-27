@@ -25,7 +25,7 @@ const Footer = () => {
           <li className="flex items-center gap-3 hover:text-gray-200 transition-colors">
             <FaWhatsapp size={22} />
             <a
-              href="https://wa.me/9306141076?text=Hi,%20I%20would%20like%20to%20connect%20with%20you."
+              href="https://wa.me/919306141076?text=Hi,%20I%20would%20like%20to%20connect%20with%20you."
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline break-all"
