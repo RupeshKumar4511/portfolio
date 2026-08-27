@@ -1,4 +1,4 @@
-import image from '../assets/profile-photo.jpeg';
+import image from '../assets/profile-image.jpeg';
 
 const Home = () => {
   return (
