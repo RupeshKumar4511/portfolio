@@ -1,4 +1,4 @@
-import image from '../assets/image.jpg';
+import image from '../assets/profile-photo.jpeg';
 
 const Home = () => {
   return (
@@ -6,7 +6,7 @@ const Home = () => {
       
       <div className="w-full md:w-2/4 text-center md:text-left mt-10 md:mt-0">
         <h1 className="text-3xl md:text-6xl font-bold leading-normal tracking-tighter">
-          Hello, I'm Rupesh
+          Hello, I'm Rupesh Kumar
         </h1>
         <p className="text-sm md:text-2xl tracking-tight mt-4">
           A Full Stack Web Developer
